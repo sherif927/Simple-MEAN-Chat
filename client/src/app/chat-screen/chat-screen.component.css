@@ -1,0 +1,11 @@
+.message-text{
+  position: absolute;
+    bottom: 5px;
+    right: auto;
+    left: auto;
+    width: 96%;
+}
+
+ul{
+  list-style: none;
+}

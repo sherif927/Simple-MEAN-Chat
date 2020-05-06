@@ -1,0 +1,20 @@
+<div class="container text-center top-margin">
+  <div class="card card-width" style="margin: auto;">
+    <div class="card-body">
+      <form class="form-signin">
+        <img class="mb-4" src='assets/chat-bubble.png' alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Pick a Username</h1>
+        <div class="form-group">
+          <input type="text" id="inputEmail" [(ngModel)]="username" [ngModelOptions]="{standalone: true}"
+            class="form-control" placeholder="Username....">
+        </div>
+        <div class="form-group">
+          <input type="text" id="roomName" [(ngModel)]="roomName" [ngModelOptions]="{standalone: true}"
+            class="form-control" placeholder="Room...">
+        </div>
+        <button class="btn btn-primary btn-block" type="submit" (click)="submitInfo()">Enter</button>
+        <p class="mt-5 mb-3 text-muted">© 2017-2019</p>
+      </form>
+    </div>
+  </div>
+</div>
